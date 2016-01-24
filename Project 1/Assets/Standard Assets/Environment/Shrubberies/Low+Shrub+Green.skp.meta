@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 3521ef2a172b47b4b8905d8d3ea6553b
+timeCreated: 1453615847
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f0000007000000071000000720000007300000074000000750000007600000077000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 039108bca9da9f68c2a091dede87ef20
+  longitude: -105.283
+  latitude: 40.017000000000003
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: .373404175, y: .41374892, z: .575842857}
+      lookAt: {x: .0888447985, y: .119419403, z: .172315285}
+      up: {x: -.295078158, y: .858972371, z: -.418443978}
+      fov: 45
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Branch1
+    100002: Branch1 1
+    100004: Branch1 2
+    100006: Branch1 3
+    100008: Branch1 4
+    100010: Branch1 5
+    100012: Branch1 6
+    100014: Branch1#1
+    100016: Branch1#1 1
+    100018: Branch1#1 2
+    100020: Branch1#1 3
+    100022: Branch1#1 4
+    100024: Branch1#1 5
+    100026: Branch1#1 6
+    100028: Leaf Branch Grp
+    100030: Leaf Branch Grp 1
+    100032: Leaf Branch Grp 2
+    100034: Leaf Branch Grp 3
+    100036: Leaf Branch Grp 4
+    100038: Leaf Branch Grp 5
+    100040: Leaf Branch Grp 6
+    100042: Leaf Grp
+    100044: Leaf Grp 1
+    100046: Leaf Grp 10
+    100048: Leaf Grp 11
+    100050: Leaf Grp 12
+    100052: Leaf Grp 13
+    100054: Leaf Grp 14
+    100056: Leaf Grp 15
+    100058: Leaf Grp 16
+    100060: Leaf Grp 17
+    100062: Leaf Grp 18
+    100064: Leaf Grp 19
+    100066: Leaf Grp 2
+    100068: Leaf Grp 20
+    100070: Leaf Grp 21
+    100072: Leaf Grp 22
+    100074: Leaf Grp 23
+    100076: Leaf Grp 24
+    100078: Leaf Grp 25
+    100080: Leaf Grp 26
+    100082: Leaf Grp 27
+    100084: Leaf Grp 28
+    100086: Leaf Grp 29
+    100088: Leaf Grp 3
+    100090: Leaf Grp 30
+    100092: Leaf Grp 31
+    100094: Leaf Grp 32
+    100096: Leaf Grp 33
+    100098: Leaf Grp 34
+    100100: Leaf Grp 35
+    100102: Leaf Grp 36
+    100104: Leaf Grp 37
+    100106: Leaf Grp 38
+    100108: Leaf Grp 39
+    100110: Leaf Grp 4
+    100112: Leaf Grp 5
+    100114: Leaf Grp 6
+    100116: Leaf Grp 7
+    100118: Leaf Grp 8
+    100120: Leaf Grp 9
+    100122: //RootNode
+    100124: shrub
+    400000: Branch1
+    400002: Branch1 1
+    400004: Branch1 2
+    400006: Branch1 3
+    400008: Branch1 4
+    400010: Branch1 5
+    400012: Branch1 6
+    400014: Branch1#1
+    400016: Branch1#1 1
+    400018: Branch1#1 2
+    400020: Branch1#1 3
+    400022: Branch1#1 4
+    400024: Branch1#1 5
+    400026: Branch1#1 6
+    400028: Leaf Branch Grp
+    400030: Leaf Branch Grp 1
+    400032: Leaf Branch Grp 2
+    400034: Leaf Branch Grp 3
+    400036: Leaf Branch Grp 4
+    400038: Leaf Branch Grp 5
+    400040: Leaf Branch Grp 6
+    400042: Leaf Grp
+    400044: Leaf Grp 1
+    400046: Leaf Grp 10
+    400048: Leaf Grp 11
+    400050: Leaf Grp 12
+    400052: Leaf Grp 13
+    400054: Leaf Grp 14
+    400056: Leaf Grp 15
+    400058: Leaf Grp 16
+    400060: Leaf Grp 17
+    400062: Leaf Grp 18
+    400064: Leaf Grp 19
+    400066: Leaf Grp 2
+    400068: Leaf Grp 20
+    400070: Leaf Grp 21
+    400072: Leaf Grp 22
+    400074: Leaf Grp 23
+    400076: Leaf Grp 24
+    400078: Leaf Grp 25
+    400080: Leaf Grp 26
+    400082: Leaf Grp 27
+    400084: Leaf Grp 28
+    400086: Leaf Grp 29
+    400088: Leaf Grp 3
+    400090: Leaf Grp 30
+    400092: Leaf Grp 31
+    400094: Leaf Grp 32
+    400096: Leaf Grp 33
+    400098: Leaf Grp 34
+    400100: Leaf Grp 35
+    400102: Leaf Grp 36
+    400104: Leaf Grp 37
+    400106: Leaf Grp 38
+    400108: Leaf Grp 39
+    400110: Leaf Grp 4
+    400112: Leaf Grp 5
+    400114: Leaf Grp 6
+    400116: Leaf Grp 7
+    400118: Leaf Grp 8
+    400120: Leaf Grp 9
+    400122: //RootNode
+    400124: shrub
+    2300000: Branch1
+    2300002: Branch1 1
+    2300004: Branch1 2
+    2300006: Branch1 3
+    2300008: Branch1 4
+    2300010: Branch1 5
+    2300012: Branch1 6
+    2300014: Branch1#1
+    2300016: Branch1#1 1
+    2300018: Branch1#1 2
+    2300020: Branch1#1 3
+    2300022: Branch1#1 4
+    2300024: Branch1#1 5
+    2300026: Branch1#1 6
+    2300028: Leaf Grp
+    2300030: Leaf Grp 1
+    2300032: Leaf Grp 10
+    2300034: Leaf Grp 11
+    2300036: Leaf Grp 12
+    2300038: Leaf Grp 13
+    2300040: Leaf Grp 14
+    2300042: Leaf Grp 15
+    2300044: Leaf Grp 16
+    2300046: Leaf Grp 17
+    2300048: Leaf Grp 18
+    2300050: Leaf Grp 19
+    2300052: Leaf Grp 2
+    2300054: Leaf Grp 20
+    2300056: Leaf Grp 21
+    2300058: Leaf Grp 22
+    2300060: Leaf Grp 23
+    2300062: Leaf Grp 24
+    2300064: Leaf Grp 25
+    2300066: Leaf Grp 26
+    2300068: Leaf Grp 27
+    2300070: Leaf Grp 28
+    2300072: Leaf Grp 29
+    2300074: Leaf Grp 3
+    2300076: Leaf Grp 30
+    2300078: Leaf Grp 31
+    2300080: Leaf Grp 32
+    2300082: Leaf Grp 33
+    2300084: Leaf Grp 34
+    2300086: Leaf Grp 35
+    2300088: Leaf Grp 36
+    2300090: Leaf Grp 37
+    2300092: Leaf Grp 38
+    2300094: Leaf Grp 39
+    2300096: Leaf Grp 4
+    2300098: Leaf Grp 5
+    2300100: Leaf Grp 6
+    2300102: Leaf Grp 7
+    2300104: Leaf Grp 8
+    2300106: Leaf Grp 9
+    2300108: shrub
+    3300000: Branch1
+    3300002: Branch1 1
+    3300004: Branch1 2
+    3300006: Branch1 3
+    3300008: Branch1 4
+    3300010: Branch1 5
+    3300012: Branch1 6
+    3300014: Branch1#1
+    3300016: Branch1#1 1
+    3300018: Branch1#1 2
+    3300020: Branch1#1 3
+    3300022: Branch1#1 4
+    3300024: Branch1#1 5
+    3300026: Branch1#1 6
+    3300028: Leaf Grp
+    3300030: Leaf Grp 1
+    3300032: Leaf Grp 10
+    3300034: Leaf Grp 11
+    3300036: Leaf Grp 12
+    3300038: Leaf Grp 13
+    3300040: Leaf Grp 14
+    3300042: Leaf Grp 15
+    3300044: Leaf Grp 16
+    3300046: Leaf Grp 17
+    3300048: Leaf Grp 18
+    3300050: Leaf Grp 19
+    3300052: Leaf Grp 2
+    3300054: Leaf Grp 20
+    3300056: Leaf Grp 21
+    3300058: Leaf Grp 22
+    3300060: Leaf Grp 23
+    3300062: Leaf Grp 24
+    3300064: Leaf Grp 25
+    3300066: Leaf Grp 26
+    3300068: Leaf Grp 27
+    3300070: Leaf Grp 28
+    3300072: Leaf Grp 29
+    3300074: Leaf Grp 3
+    3300076: Leaf Grp 30
+    3300078: Leaf Grp 31
+    3300080: Leaf Grp 32
+    3300082: Leaf Grp 33
+    3300084: Leaf Grp 34
+    3300086: Leaf Grp 35
+    3300088: Leaf Grp 36
+    3300090: Leaf Grp 37
+    3300092: Leaf Grp 38
+    3300094: Leaf Grp 39
+    3300096: Leaf Grp 4
+    3300098: Leaf Grp 5
+    3300100: Leaf Grp 6
+    3300102: Leaf Grp 7
+    3300104: Leaf Grp 8
+    3300106: Leaf Grp 9
+    3300108: shrub
+    4300000: Mesh shrub
+    4300002: Mesh Leaf Grp
+    4300004: Mesh Leaf Grp
+    4300006: Mesh Branch1
+    4300008: Mesh Branch1#1
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .0253999997
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
