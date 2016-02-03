@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
+
 
 public class POV_Movement : MonoBehaviour {
 
@@ -8,7 +10,27 @@ public class POV_Movement : MonoBehaviour {
 	
 	public Cardboard cardB;
 	public CardboardHead head;
-	
+
+	public Text countText;
+	public Text winText;
+    public AudioClip crunch1;
+
+	private int count;
+ 	
+    AudioSource crunchA;
+
+
+
+	void Start () 
+	{
+
+		crunchA = GetComponent<AudioSource>();
+ 
+		count = 0;
+		SetCountText();
+		winText.text = "";
+	}
+
 	// Update is called once per frame
 	void Update () {
 
@@ -21,6 +43,33 @@ public class POV_Movement : MonoBehaviour {
 		v3.y = 0.0f;
 		transform.position += v3;
 		//transform.position.Set(transform.position.x, y_axis, transform.position.z);
+	}
+
+	void OnTriggerEnter(Collider other) 
+	{
+		if (other.gameObject.CompareTag ("Edible")) 
+		{
+			other.gameObject.SetActive (false);
+			count = count + 1;
+			SetCountText();
+
+			crunchA.PlayOneShot(crunch1, 0.7F);
+
+		}
+
+		// (won't use this) Destroy(other.gameObject);
+		// if (other.gameObject.CompareTag("Player"))
+		// gameObject.SetActive(false);
+
+	}
+
+	void SetCountText() 
+	{
+		countText.text = "Count: " + count.ToString ();
+		if (count >= 13)
+		{
+			winText.text = "You Win!";
+		}
 	}
 
 
