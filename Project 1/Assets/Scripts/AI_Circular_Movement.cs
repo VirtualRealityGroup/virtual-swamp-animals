@@ -22,6 +22,6 @@ public class AI_Circular_Movement : MonoBehaviour
         z = z_start + (radius * Mathf.Sin(angle));
         transform.position = new Vector3(x, y_start, z);
         angle += 15 * Mathf.Rad2Deg * Time.deltaTime * time;
-        transform.rotation = Quaternion.LookRotation(-1*transform.position);
+       // transform.rotation = Quaternion.LookRotation(-1*transform.position);
     }
 }

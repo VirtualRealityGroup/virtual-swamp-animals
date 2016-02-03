@@ -14,10 +14,10 @@ public class POV_Movement : MonoBehaviour {
 	public Text countText;
 	public Text winText;
     public AudioClip crunch1;
+        AudioSource crunchA;
 
 	private int count;
  	
-    AudioSource crunchA;
 
 
 
@@ -25,9 +25,10 @@ public class POV_Movement : MonoBehaviour {
 	{
 
 		crunchA = GetComponent<AudioSource>();
+        crunchA.clip = crunch1;
  
 		count = 0;
-		SetCountText();
+		//SetCountText();
 		winText.text = "";
 	}
 
@@ -51,9 +52,9 @@ public class POV_Movement : MonoBehaviour {
 		{
 			other.gameObject.SetActive (false);
 			count = count + 1;
-			SetCountText();
+			//SetCountText();
 
-			crunchA.PlayOneShot(crunch1, 0.7F);
+			crunchA.Play();
 
 		}
 
