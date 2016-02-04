@@ -1,7 +1,6 @@
 # virtual-swamp-animals :frog: :bug: 
 Virtual reality project for Google Cardboard depicting the food chain in a swamp environment. Experience life as a bug, frog, and a raven and interact with your environment with a full range of movements.
 
-[YouTube Link](https://www.youtube.com/watch?v=8kbuOrPGy1k&feature=youtu.be)
 
 [Download link for android build](https://drive.google.com/file/d/0B0Uky3-5Lr3pTlRVVi1JR3BaSlE/view)
 
@@ -22,6 +21,7 @@ Our project consists of a movement of a player at a constant rate with interacti
 ### Gameplay Video
 7 minute Youtube Video - 6 minute of the experience followed by 1 minute explaining technical components
 View a video of gameplay at this link.
+[YouTube Link](https://www.youtube.com/watch?v=8kbuOrPGy1k&feature=youtu.be)
 
 
 ### Authors and Contributors
