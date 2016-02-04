@@ -3,6 +3,8 @@ Virtual reality project for Google Cardboard depicting the food chain in a swamp
 
 [YouTube Link](https://www.youtube.com/watch?v=8kbuOrPGy1k&feature=youtu.be)
 
+[Download link for android build](https://drive.google.com/file/d/0B0Uky3-5Lr3pTlRVVi1JR3BaSlE/view)
+
 [Link to the website](http://virtualrealitygroup.github.io/virtual-swamp-animals/)
 
 ### Description
