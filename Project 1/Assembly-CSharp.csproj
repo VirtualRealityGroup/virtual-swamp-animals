@@ -74,6 +74,7 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
      <Compile Include="Assets\CirclingNPC1.cs" />
      <Compile Include="Assets\Scripts\AI_Circular_Movement.cs" />
+     <Compile Include="Assets\Scripts\AI_Circular_Movement_Rot.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Floater.cs" />
