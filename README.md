@@ -22,7 +22,7 @@ View a video of gameplay at this link.
 
 
 ### Authors and Contributors
-@marieurmano, @reidgill, and @EvanMAmstutz worked on this project in Spring 2016 for the University of Florida's Virtual Reality class taught by Benjamin Lok.
+[Marie Urmano](https://github.com/marieurmano), [Reid Gill](https://github.com/reidgill), and [Evan Amstutz](https://github.com/EvanMAmstutz) worked on this project in Spring 2016 for the University of Florida's Virtual Reality class taught by Benjamin Lok.
 
 ### References
 We utilized some models for our unity project. Listed below are the people credited for creating these aspects of our game.
