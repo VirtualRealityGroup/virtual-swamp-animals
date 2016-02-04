@@ -11,14 +11,10 @@ public class CameraController : MonoBehaviour {
 	private Vector3 offset;
 
 	
-	// Use this for initialization
-	void Start () {
-		offset = new Vector3(offsetX, offsetY, offsetZ);
-		//offset = transform.position - player.transform.position;
-	}
 	
 	// LateUpdate is called once per frame, guaranteed to run after all items have been processed in update
 	void LateUpdate () {
+		offset = new Vector3(offsetX, offsetY, offsetZ);
 		transform.position = player.transform.position + offset;
 	}
 

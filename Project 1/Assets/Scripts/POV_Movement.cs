@@ -17,6 +17,10 @@ public class POV_Movement : MonoBehaviour {
         AudioSource crunchA;
 
 	private int count;
+
+	public bool is_bird = false;
+
+	public GameObject bird_char; 
  	
 
 
@@ -35,15 +39,29 @@ public class POV_Movement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		Quaternion povRot = cardB.HeadPose.Orientation; 
-		transform.rotation = Quaternion.Euler(0, povRot.eulerAngles.y, 0);
+
+		if (is_bird == true) {
+			Quaternion povRot = cardB.HeadPose.Orientation; 
+			transform.rotation = Quaternion.Euler(0, povRot.eulerAngles.y, 0);
 
 
 
-		var v3 = speed * head.Gaze.direction;
-		v3.y = 0.0f;
-		transform.position += v3;
-		//transform.position.Set(transform.position.x, y_axis, transform.position.z);
+			var v3 = speed * head.Gaze.direction;
+			//v3.y = 0.0f;
+			transform.position += v3;
+
+		}
+		else {
+
+			Quaternion povRot = cardB.HeadPose.Orientation; 
+			transform.rotation = Quaternion.Euler(0, povRot.eulerAngles.y, 0);
+
+
+			var v3 = speed * head.Gaze.direction;
+			v3.y = 0.0f;
+			transform.position += v3;
+			//transform.position.Set(transform.position.x, y_axis, transform.position.z);
+		}
 	}
 
 	void OnTriggerEnter(Collider other) 
